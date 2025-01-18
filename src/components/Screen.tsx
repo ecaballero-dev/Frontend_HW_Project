@@ -63,7 +63,7 @@ const Screen = (props: Props) => {
   }
 
   const handleBalance = (operation: number) => setBalance((prevState) => {
-    handleOperation(pin, prevState + operation)
+    handleOperation(pin, parseInt(prevState) + operation)
     return prevState + operation
   })
 
