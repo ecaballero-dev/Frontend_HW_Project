@@ -1,6 +1,16 @@
 # Casetext Homework Assignment
 Your task in this challenge is to build a demo web app that is a functional ATM machine. Please use a stubbed backend as if you were interacting with a server (ie reading from a file or local storage). Feel free to add any bells and whistles you’d like.
 
+## How to Use:
+
+- **Run** `npm install` in project's folder
+- **Run** `npm run dev`
+- Enter http://localhost:5173/ in browser (preferably Google Chrome)
+- All data is being stored in Local Storage, once the user inputs a PIN (4 digit), it will randomly select a **Name**, **Card Brand** and a **Balance**
+- The user will see the **Welcome** screen with the **name** and the **card brand** selected on top of the screen
+- Once the user selects **Balance**, **Withdraw** or **Deposit**, the funds will appear on screen and depending on the amount the user will be able to **withdraw an specific amount or not**
+- If the user **doesn't have enough funds a red alert will appear**
+
 ## Guidelines:
 - Please work in React, using Javascript or Typescript, and utilize any additional frameworks or libraries as needed.
 - Incorporate state management effectively in your application.

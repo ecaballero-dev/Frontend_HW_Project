@@ -11,7 +11,8 @@ export default {
         'atm-sign': 'rgb(50,106,169)',
         'atm-screen': 'rgb(138,178,209)',
         'atm-screen-border': 'rgb(225,225,215)',
-        'atm-screen-button': 'rgb(183,183,183)'
+        'atm-screen-button': 'rgb(183,183,183)',
+        'atm-shadow': 'rgb(190,190,190)'
       }
     },
   },
