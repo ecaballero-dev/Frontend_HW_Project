@@ -1,0 +1,1 @@
+export type Step = 'DEPOSIT' | 'WITHDRAW' | 'BALANCE' | 'ATM' | 'INITIAL' | 'PINPAD';
